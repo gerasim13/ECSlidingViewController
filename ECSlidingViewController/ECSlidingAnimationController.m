@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 
 #import "ECSlidingAnimationController.h"
-#import "ECSlidingConstants.h"
+#import "ECSlidingViewController.h"
 
 @interface ECSlidingAnimationController ()
 @property (nonatomic, copy) void (^coordinatorAnimations)(id<UIViewControllerTransitionCoordinatorContext>context);

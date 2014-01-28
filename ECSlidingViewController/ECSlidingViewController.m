@@ -27,6 +27,11 @@
 #import "ECSlidingInteractiveTransition.h"
 #import "ECSlidingSegue.h"
 
+NSString *const ECTransitionContextTopViewControllerKey    = @"ECTransitionContextTopViewControllerKey";
+NSString *const ECTransitionContextUnderLeftControllerKey  = @"ECTransitionContextUnderLeftControllerKey";
+NSString *const ECTransitionContextUnderRightControllerKey = @"ECTransitionContextUnderRightControllerKey";
+
+
 @interface ECSlidingViewController()
 @property (nonatomic, assign) ECSlidingViewControllerOperation currentOperation;
 @property (nonatomic, strong) ECSlidingAnimationController *defaultAnimationController;
