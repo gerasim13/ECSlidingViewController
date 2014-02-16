@@ -71,6 +71,10 @@ NSString *const ECTransitionContextUnderRightControllerKey = @"ECTransitionConte
 
 @implementation ECSlidingViewController
 
+@synthesize topViewController=_topViewController;
+@synthesize underLeftViewController=_underLeftViewController;
+@synthesize underRightViewController=_underRightViewController;
+
 #pragma mark - Constructors
 
 + (instancetype)slidingWithTopViewController:(UIViewController *)topViewController {
